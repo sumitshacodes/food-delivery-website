@@ -50,3 +50,33 @@ div section.hero p {
   margin-top: 6rem;
   font-size: 2.5rem;
 }
+/* services section start here  */
+div.services {
+  position: relative;
+  top: 65vh;
+  flex-direction: column;
+}
+div.service {
+  flex-direction: column;
+  align-items: center;
+}
+div.service div.box {
+  padding: 0 0;
+  margin: 1rem;
+  width: 80vw;
+  height: auto;
+  padding: 1rem 0.5rem;
+}
+div.box:active {
+  background-color: rgba(119, 119, 119, 1);
+  box-shadow: 0px 0px 20px 0px rgb(24, 107, 107, 0.8);
+}
+div.box img.services-img:active {
+  transform: scale(1.1);
+}
+div.service div.box img.services-img {
+  height: auto;
+  width: 55%;
+  transition: all 0.3s ease-in-out;
+}
+/* services section ends here  */
