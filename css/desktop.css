@@ -28,7 +28,7 @@ nav.navbar{
     font-weight: 900;
 }
 div.logo img{
-    width: 7rem;
+    width: 5rem;
     height: auto;
 }
 ul{
@@ -43,6 +43,7 @@ ul li a{
     color: rgb(196, 196, 196);
     font-size: 1.5rem;
     position: relative;
+    font-weight: 600;
     letter-spacing: 1px;
     padding: 0 .7rem;
 }
