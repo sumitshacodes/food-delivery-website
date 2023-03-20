@@ -1,80 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Rubik', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
 }
 
 /* navigation section */
 
-nav.navbar{
-    display: flex;
-    justify-content: space-between;
-    background-color: #1b1b1b;
-    padding-left: 50px;
-    padding-right: 100px;
-    height: 15vh;
-    width: 100%;
-    font-family: 'Poppins', sans-serif;
-    align-items: center;
+nav.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1b1b1b;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 15vh;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
 }
-.logo{
-    display: flex;
-    align-items: center;
-    font-size: 2.5rem;
-    color: white;
-    font-weight: 900;
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 900;
 }
-div.logo img{
-    width: 5rem;
-    height: auto;
+div.logo img {
+  width: 5rem;
+  height: auto;
 }
-ul{
-    list-style: none;
-    display: flex;
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 }
-ul li{
-    margin: 0 1rem;
+ul li {
+  margin: 0 1rem;
 }
-ul li a{
-    text-decoration: none;
-    color: rgb(196, 196, 196);
-    font-size: 1.5rem;
-    position: relative;
-    font-weight: 600;
-    letter-spacing: 1px;
-    padding: 0 .7rem;
+ul li a {
+  text-decoration: none;
+  color: rgb(196, 196, 196);
+  font-size: 1.5rem;
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 0 0.7rem;
 }
-a.active{
-    color: white;
+a.active {
+  color: white;
 }
-a.active::after{
-    position: absolute;
-    content: "";
-    height: 3px;
-    bottom: -5px;
-    width: 100%;
-    background-color: #ce2727;
-    
+a.active::after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  bottom: -5px;
+  width: 100%;
+  background-color: #ce2727;
 }
-ul li a:after{
-    position: absolute;
-    content: "";
-    height: 3px;
-    bottom: -5px;
-    width: 0%;
-    background-color: #ce2727;
-    left: 0%;
-    transition: all .3s ease-in;
+ul li a:after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  bottom: -5px;
+  width: 0%;
+  background-color: #ce2727;
+  left: 0%;
+  transition: all 0.3s ease-in;
 }
-a:hover{
-    color: white;
+a:hover {
+  color: white;
 }
-li a:hover:after{
-    width: 100%;
+li a:hover:after {
+  width: 100%;
 }
 
 /* navigation menu ends here */
 
+/* navigation icon */
+
+label.menu-btn i {
+  color: white;
+  font-size: 2.4rem;
+  display: none;
+  cursor: pointer;
+}
+input[type="checkbox"] {
+  display: none;
+}
