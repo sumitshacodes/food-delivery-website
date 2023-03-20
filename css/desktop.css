@@ -131,7 +131,7 @@ body {
   font-size: 3rem;
   z-index: 10;
   font-weight: 900;
-  text-shadow: 0px 0px 30px rgb(255, 255, 255);
+  text-shadow: 0px 0px 30px rgb(116, 116, 116);
   margin: 0rem 0rem;
   margin-bottom: 2rem;
 }
@@ -181,6 +181,7 @@ div.services h1 {
   top: -4rem;
   font-weight: 900;
   font-size: 3rem;
+  text-shadow: 5px 4px 16px rgba(136, 135, 135, 0.5);
 }
 div.box:hover {
   background-color: rgba(119, 119, 119, 1);
@@ -205,6 +206,41 @@ div.box img.services-img {
   height: auto;
   width: 100%;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 /* services section ends here  */
+
+/* clients section starts here   */
+
+.clients {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100vw;
+  height: 30vh;
+  background-color: rgb(63, 63, 63);
+  justify-content: center;
+  padding: 2rem 0;
+}
+.clients p {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+  text-shadow: 3px 2px 8px rgba(0, 0, 0, 0.5);
+}
+.clients-img {
+  display: flex;
+  justify-content: space-evenly;
+}
+.clients-img img:hover {
+  scale: 1.2;
+  filter: drop-shadow(5px 5px 5px cyan);
+}
+.clients-img img {
+  width: 10%;
+  height: auto;
+  transition: all 0.3s ease-in-out;
+  filter: drop-shadow(5px 5px 5px #272727);
+  cursor: pointer;
+}

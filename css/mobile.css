@@ -80,3 +80,33 @@ div.service div.box img.services-img {
   transition: all 0.3s ease-in-out;
 }
 /* services section ends here  */
+
+/* clients section starts here */
+
+div.clients {
+  position: relative;
+  bottom: -35rem;
+  height: 20vh;
+  flex-wrap: wrap;
+  padding: 1rem 2rem;
+  align-items: center;
+}
+div.clients p {
+  font-size: 2.5rem;
+}
+div.clients-img img {
+  width: 20%;
+  height: auto;
+  transition: all 0.3s ease-in-out;
+  filter: drop-shadow(5px 5px 5px #272727);
+}
+div.clients-img {
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 90%;
+  margin: 0 auto;
+}
+.clients-img img:active {
+  scale: 1.2;
+  filter: drop-shadow(5px 5px 5px cyan);
+}
