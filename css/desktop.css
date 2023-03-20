@@ -8,6 +8,7 @@
 }
 body {
   width: 100%;
+  background-color: #1b1b1b;
 }
 /* navigation section */
 
@@ -15,7 +16,7 @@ nav.navbar {
   display: flex;
   justify-content: space-between;
   background-color: #1b1b1b;
-  padding-left: 50px;
+  padding-left: 35px;
   padding-right: 50px;
   height: 15vh;
   width: 100%;
@@ -93,7 +94,7 @@ input[type="checkbox"] {
 
 /* hero section starts here  */
 body {
-  background-color: black;
+  background-color: 1b1b1b;
   width: 100%;
 }
 .hero {
@@ -155,4 +156,53 @@ button.btn:active,
 }
 div.section {
   overflow-x: hidden;
+}
+/* services section starts here  */
+div.services {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: fit-content;
+  color: white;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #1b1b1b;
+}
+div.service {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 4rem;
+}
+div.services h1 {
+  position: relative;
+  top: -4rem;
+  font-weight: 900;
+  font-size: 3rem;
+}
+div.box:hover {
+  background-color: rgba(119, 119, 119, 1);
+  box-shadow: 0px 0px 20px 0px rgb(24, 107, 107, 0.8);
+}
+div.box img.services-img:hover {
+  transform: scale(1.1);
+}
+/* global values  */
+div.box {
+  background-color: rgba(119, 119, 119, 0.7);
+  width: 30%;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  transition: all 0.3s ease-in-out;
+}
+div.box p {
+  color: rgb(255, 255, 255);
+  font-size: 1.1rem;
+}
+div.box img.services-img {
+  height: auto;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
 }
