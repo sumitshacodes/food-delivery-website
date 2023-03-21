@@ -22,6 +22,8 @@ nav.navbar {
   width: 100%;
   font-family: "Poppins", sans-serif;
   align-items: center;
+  position:fixed;
+  z-index: 1000000;
 }
 .logo {
   display: flex;
