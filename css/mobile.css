@@ -158,3 +158,18 @@ div.clients-img {
     width: 50%;
     cursor: pointer;
   }
+  /* footer section starts here  */
+  div.footer{
+    text-align: center;
+    height: 10vh;
+    background-color: #000000;
+    position: relative;
+    width: 100%;
+    padding: 2rem 0rem;
+    top: 50rem;
+    color: white;
+    font-size: 1.3rem;
+  }
+  div.footer span{
+    color: #ce2727;
+  }

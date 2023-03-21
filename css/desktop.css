@@ -315,3 +315,17 @@ div.box img.services-img {
   .f-btn{
     margin-bottom: 2rem ;
   }
+  .footer{
+    text-align: center;
+    height: 12vh;
+    background-color: #000000;
+    position: relative;
+    width: 100%;
+    padding: 2rem 0rem;
+    top: 15rem;
+    color: white;
+    font-size: 1.3rem;
+  }
+  .footer span{
+    color: #ce2727;
+  }
