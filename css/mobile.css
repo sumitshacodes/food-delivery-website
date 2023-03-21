@@ -50,8 +50,9 @@ div section.hero p {
 /* services section start here  */
 div.services {
   position: relative;
-  top: 65vh;
+  top: 79vh;
   flex-direction: column;
+  margin-top: 7rem;
 }
 div.service {
   flex-direction: column;
@@ -63,6 +64,9 @@ div.service div.box {
   width: 80vw;
   height: auto;
   padding: 1rem 0.5rem;
+}
+body div.bike.box{
+  margin-bottom: 10rem;
 }
 div.box:active {
   background-color: rgba(119, 119, 119, 1);
@@ -165,7 +169,7 @@ div.clients-img {
     padding: 2rem 0rem;
     top: 50rem;
     color: white;
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   div.footer span{
     color: #ce2727;

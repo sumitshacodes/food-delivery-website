@@ -22,8 +22,8 @@ nav.navbar {
   width: 100%;
   font-family: "Poppins", sans-serif;
   align-items: center;
-  position:fixed;
-  z-index: 1000000;
+  position: fixed;
+  z-index: 1000;
 }
 .logo {
   display: flex;
@@ -113,6 +113,7 @@ body {
   padding-bottom: 9rem;
   overflow-x: hidden;
   max-width: 100vw;
+  margin-top: 8rem;
 }
 .hero::before {
   content: "";
